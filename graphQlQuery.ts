@@ -8,7 +8,7 @@ const QueryType = new GraphQLObjectType({
       type: new GraphQLList(AtlassianSupportType),
       resolve(parent, args, context, info) {
         // Use the `context` object to access the Atlassian Support API and
-        // fetch a list of open support tickets.
+        // fetch a list of open support tickets
       },
     },
   },
